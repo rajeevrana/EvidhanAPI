@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS", "AngularJS\AngularJS.csproj", "{010663FA-1F00-4976-B846-17C4B01E5001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSForm", "AngularJSForm\AngularJSForm.csproj", "{91CF1CC8-E796-4FBC-B161-15FB16BAE6D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010663FA-1F00-4976-B846-17C4B01E5001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010663FA-1F00-4976-B846-17C4B01E5001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010663FA-1F00-4976-B846-17C4B01E5001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010663FA-1F00-4976-B846-17C4B01E5001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CF1CC8-E796-4FBC-B161-15FB16BAE6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CF1CC8-E796-4FBC-B161-15FB16BAE6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CF1CC8-E796-4FBC-B161-15FB16BAE6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CF1CC8-E796-4FBC-B161-15FB16BAE6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
