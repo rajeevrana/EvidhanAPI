@@ -26,15 +26,15 @@ namespace CrudwithANJS.Controllers
             }
         }
 
-        public JsonResult getEmployeeByNo(string EmpNo)
-        {
-            using (sampleEntities dataContext = new sampleEntities())
-            {
-                int no = Convert.ToInt32(EmpNo);
-                var employeeList = dataContext.employee1.Find(no);
-                return Json(employeeList, JsonRequestBehavior.AllowGet);
-            }
-        }
+        //public JsonResult getEmployeeByNo(string EmpNo)
+        //{
+        //    using (sampleEntities dataContext = new sampleEntities())
+        //    {
+        //        int no = Convert.ToInt32(EmpNo);
+        //        var employeeList = dataContext.employee1.Find(no);
+        //        return Json(employeeList, JsonRequestBehavior.AllowGet);
+        //    }
+        //}
         public string UpdateEmployee(employee1 Emp)
         {
             if (Emp != null)
